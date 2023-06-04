@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Resume</title>
+    <style>
+        .navbar,footer{
+            background-color: paleturquoise;
+        }
+        .navbar-brand{
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        .badge{
+            background-color: paleturquoise; 
+            color:black;
+            padding:6px;
+        }
+        main,footer{
+            padding: 25px; 
+        }
+        #About{
+            text-align: center;   
+        }
+        .Dates{
+            float:right;
+        }
+        .nav-link:hover{
+            color:aliceblue;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">FarinKhan</a>
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link"  href="#About">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    </header>
+    <main>
+    <div class="container" id="About">
+        <h1>Farin Khan</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam iusto, porro asperiores vel quo modi inventore 
+        alias nesciunt corrupti cumque harum laborum, iste doloremque, incidunt provident labore neque culpa quod!</p>
+        <b>Skills:</b>
+        <span class="badge text">Machine Learning</span>
+        <span class="badge text">Python</span>
+        <span class="badge text">HTML</span>
+        <span class="badge text">CSS</span>
+        <span class="badge text">Java</span>
+        <span class="badge text">SQL</span>
+    </div>
+    <div class="container" id="Experience">
+        <b><h3>Experience</h3></b>
+        <div class="card">
+            <div class="card-header">
+                <b>Contract Web Developer</b>
+                <i class="Dates">Apr 2020 - current</i>
+            </div>
+            <div class="card-body">
+                <h6 class="card-title">Farin Digital - Dallas,TX </h6>
+                
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quia officia cum iste rerum consectetur ex veniam, expedita voluptatibus corporis nihil et deserunt ut velit possimus natus quam nobis. Officiis.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, reiciendis officia. Maiores accusamus perspiciatis ut architecto exercitationem eum? Laudantium quibusdam quae mollitia temporibus dignissimos excepturi ratione inventore eum provident culpa?<br><br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos odit eos accusantium doloribus ex dolore, quas sint quod vel a quibusdam eligendi similique atque molestias commodi. Numquam unde esse atque.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse illo doloribus beatae voluptatibus! Inventore, doloremque deleniti accusamus debitis nisi optio assumenda ea fuga magnam alias officiis aperiam sed quam magni?
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container" id="Education">
+        <b><h3>Education</h3></b>
+        <div class="card">
+            <div class="card-header"><b>DJSCE</b></div>
+            <div class="card-body">
+                <h6 class="card-title">BTech (Comp Sci & Engg (Data Science))</h6>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid corporis reprehenderit quis quae blanditiis, adipisci laborum possimus doloribus, consequatur nam, exercitationem esse rem aperiam minima placeat doloremque praesentium error nesciunt.</p>
+            </div>
+        </div>
+    </div>
+    </main>
+    <br>
+    <footer>
+        <div  class="container" id="Contact">
+        <b><h3>Contact</h3></b>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure nostrum perspiciatis, modi aliquid voluptatem eum assumenda quod quaerat nam saepe eligendi numquam quibusdam quas aliquam atque. Eligendi consectetur doloremque debitis.</p>
+        </div>
+    </footer>
+    </body>
+</html>
